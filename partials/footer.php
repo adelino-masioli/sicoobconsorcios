@@ -2,9 +2,13 @@
     <div class="footerdark" style="position: relative;">
         <div class="container-fluid">
             <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-8 col-lg-offset-2 column first-columm">
+                    <h2>Dúvidas, reclamações ou sugestões? <small><a href="<?php echo base_url(); ?>contato">(Entre em contato conosco)</a></small></h2>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-lg-2 column hidden-xs hidden-sm  hidden-md text-right"><img class="footer-phone wow fadeIn hidden-xs hidden-sm" data-wow-delay=".3s" src="assets/images/phone.png" alt=""></div>
-                <div class="col-xs-7 col-sm-4 col-lg-4 column first-columm">
-                    <h2>Dúvidas, reclamações ou sugestões?</h2>
+                <div class="col-xs-12 col-sm-12 col-lg-4 column first-columm">
                     <p>O Sicoob Consórcios está aguardando a sua ligação.</p><br/>
                     <p><strong>SAC - Serviço de Atendimento ao Consorciado</strong></p>
                     <p>Para dúvidas e informações sobre o produtos </p>
@@ -13,7 +17,7 @@
                     <h4>Horário de atendimento das 09h às 18h, dias úteis, de segunda a sexta.</h4>
                 </div>
 
-                <div class="col-xs-12 col-sm-6 col-lg-6 column text-ouvidoria-footer">
+                <div class="col-xs-12 col-sm-12 col-lg-6 column text-ouvidoria-footer">
                     <h1>Ouvidoria: <span style="font-weight: 300;"><a href="<?php echo base_url(); ?>ouvidoria">(Clique aqui e conheça esse canal)</a></span></h1>
                     <h2>0800  722  6555 </h2>
                     <h2>0800  940  0458 (deficientes auditivos e fala) </h2>

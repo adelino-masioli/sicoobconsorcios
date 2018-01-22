@@ -126,13 +126,35 @@
     .page-404 img{
         margin: auto;
     }
+
+    .footerdark .column {
+        min-height: 100px;
+    }
+    footer .footerdark .text-ouvidoria-footer {
+        margin-top: 50px;
+    }
+    footer .footerlight p{
+        width: 100%;
+        height: auto;
+    }
+
+    footer .footerdark .first-columm h2 {
+        color: #bfd730;
+        font-size: 19px!important;
+        margin-bottom: 0px;
+        line-height: 23px;
+    }
+    footer .footerdark .first-columm h2 small a{
+        font-size: 12px;
+    }
+
 }
 @media(max-width: 933px){
     .navbar-inverse li{
         font-size: 0.7vw!important;
     }
     .footerdark .column{
-        min-height: 370px;
+        min-height:100px;
     }
     .footerdark .column img{
         position: absolute;
@@ -249,37 +271,38 @@
     }
     .navbar-header{
         background-image: url('../assets/images/bg-menu.png');
-        background-repeat: repeat-x;
+        background-repeat: no-repeat;
+        background-color: #003841!important;
     }
     .navbar-toggle {
-        background-color: #003D43;
-        border-color: #cccccc!important;
+        background-color: #003841;
+        border-color: #003841!important;
     }
     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-        border-color: #cccccc;
+        border-color: #003841;
     }
     .navbar{
         padding-left: 15px;
         padding-right: 15px;
     }
     .navbar-inverse {
-        border-color: #cccccc;
+        border-color: #003841;
     }
     .navbar-inverse li{
         width: 100%;
         text-align: left;
         font-size: 1.6vw!important;
         height: 50px;
-        border-color: #cccccc!important;
-        border-left: 1px solid #cccccc!important;
+        border-color: #003841!important;
+        border-left: 1px solid #003841!important;
     }
     .navbar-inverse li a{
-        background-color: #f1f1f1;
+        background-color: #003841;
         height: 50px;
-        border-color: #cccccc!important;
+        border-color: #003841!important;
     }
     .navbar-inverse li:first-child{
-        border-color: #cccccc!important;
+        border-color: #003841!important;
     }
     #produtos img{
         margin: auto!important;

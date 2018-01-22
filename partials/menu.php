@@ -60,7 +60,7 @@
                 <li><a class="<?php echo active_menu('motos'); ?> vertical-align" href="<?php echo base_url(); ?>motos">Motos</a></li>
                 <li><a class="<?php echo active_menu('outras-modalidades'); ?> vertical-align-wide_" href="<?php echo base_url(); ?>outras-modalidades">Outras Modalidades</a></li>
                 <li><a class="<?php echo active_menu('informacoes-sobre-o-grupo'); ?>" href="<?php echo base_url(); ?>informacoes-sobre-o-grupo">Informações sobre seu Grupo</a></li>
-                <li><a class="<?php echo active_menu_array(array('contato', 'ouvidoria')); ?> vertical-align" href="<?php echo base_url(); ?>contato">Contato</a></li>
+                <li><a class="<?php echo active_menu_array(array('contato', 'ouvidoria')); ?> vertical-align" href="<?php echo base_url(); ?>ouvidoria">Ouvidoria</a></li>
             </ul>
         </div>
     </div>

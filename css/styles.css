@@ -165,11 +165,11 @@ aside {
 }
 .navbar-inverse{
     border-radius: 0px;
-    background: #ffffff;
     border-color: #003d43;
     border-left: 0px;
     border-right: 0px;
-    margin-top: 6px;
+    margin-top: 0px;
+    background-color: #003841!important;
 }
 .navbar-inverse .container-fluid{
     margin: 0px;
@@ -188,25 +188,27 @@ aside {
 }
 .navbar-inverse li a{
     font-family: 'Roboto', sans-serif;
-    color: #003d43!important;
+    color: #ffffff!important;
     padding-top: 8px;
     padding-bottom: 5px;
     vertical-align: middle;
     background-image: url('../assets/images/bg-menu.png');
-    background-repeat: repeat-x;
-    border-right: 1px solid #003d43;
+    background-repeat: no-repeat;
+    border-right: 1px solid #003841;
     height: 60px;
-    background-color: #f9f9f9;
+    background-color: #003841!important;
     overflow: hidden;
-    font-size: 1vw!important;
+    font-size: 0.8vw!important;
+    text-transform: uppercase;
 }
 .navbar-inverse li:first-child{
-    border-left: 1px solid #003d43!important;
+    border-left: 1px solid #003841!important;
 }
 .navbar-inverse li a:active, .navbar-inverse li a:focus, .navbar-inverse li a:hover{
-    color: #003d43!important;
-    background-image: url('../assets/images/bg-menu-hover.png');
-    background-repeat: repeat-x;
+    color: #C8D400!important;
+    background-image: url('../assets/images/bg-menu.png');
+    background-repeat: no-repeat;
+    background-color: #003841!important;
 }
 .navbar-inverse li a.active-nav{
     background: #ecf0b3;
@@ -216,7 +218,7 @@ aside {
 }
 
 #box1{
-    margin-top: 6px;
+    margin-top: 0px;
 }
 #box1 img{
     width: 100%!important;
@@ -344,7 +346,10 @@ footer .footerdark .text-ouvidoria-footer p {
     width: 62%;
     margin-top: 6px;
 }
-
+footer small a, footer small a:hover{
+    font-size: 16px;
+    color: #ffffff;
+}
 
 footer .footerlight h2 {
     color: #ffffff;
