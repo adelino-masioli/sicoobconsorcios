@@ -7,7 +7,7 @@
 <div class="navdarkgreen">
     <div class="container-fluid">
         <div class="row">
-            <form action="http://webatendimento.consorcionacionalsicoob.com.br/web_atendimento/FrmCorCCcnsLogin.aspx" name="area_consorciado" id="chronoform_area_consorciado" method="post">
+            <form action="https://webatendimento.sicoobconsorcios.com.br/frmCorccCnsLogin.aspx" name="area_consorciado" id="chronoform_area_consorciado" method="post">
                 <input id="edtTipoAcesso_0" type="hidden" name="edtTipoAcesso" value="logingrupo">
                 <div class="col-xs-5 col-sm-5 col-lg-5">
                     <div class="row">
@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-2 col-lg-2">
                     <div class="row">
-                        <div class="col-md-12"><button type="button" class="btn btn-default btn-esqueci-senha" onclick="$(location).attr('href','http://cooperativa.consorcionacionalsicoob.com.br/Web_Atendimento/frmCorccCnsEsqueciSenha.aspx');"><span class="hidden-lg hidden-md">RECUPERAR SENHA</span> <span class="hidden-sm hidden-xs"><strong>1º ACESSO/ESQUECI MINHA SENHA</strong></span></button></div>
+                        <div class="col-md-12"><button type="button" class="btn btn-default btn-esqueci-senha" onclick="$(location).attr('href','https://webatendimento.sicoobconsorcios.com.br/frmCorccCnsEsqueciSenha.aspx');"><span class="hidden-lg hidden-md">RECUPERAR SENHA</span> <span class="hidden-sm hidden-xs"><strong>1º ACESSO/ESQUECI MINHA SENHA</strong></span></button></div>
                         <div class="col-md-12 hidden"><button type="button" class="btn btn-default btn-esqueci-senha" onclick="$(location).attr('href','http://cooperativa.consorcionacionalsicoob.com.br/Web_Atendimento/frmCorccCnsEsqueciSenha.aspx');"><span class="hidden-lg hidden-md">RECUPERAR SENHA</span> <span class="hidden-sm hidden-xs">ESQUECI MINHA SENHA</span></button></div>
                         <div class="col-xs-6 col-sm-4  col-lg-4 hidden"><button type="button" class="btn btn-default btn-login">CRIAR LOGIN</button></div>
                     </div>
