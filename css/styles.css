@@ -198,7 +198,7 @@ aside {
     height: 60px;
     background-color: #003841!important;
     overflow: hidden;
-    font-size: 0.8vw!important;
+    font-size: 0.75vw!important;
     text-transform: uppercase;
 }
 .navbar-inverse li:first-child{
@@ -214,7 +214,7 @@ aside {
     background: #ecf0b3;
 }
 .navbar-inverse li a.vertical-align{
-    line-height: 40px;
+    line-height: 42px;
 }
 
 #box1{

@@ -11,7 +11,7 @@
                 <input id="edtTipoAcesso_0" type="hidden" name="edtTipoAcesso" value="logingrupo">
                 <div class="col-xs-5 col-sm-5 col-lg-5">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-lg-6"><h1>ÁREA DO ASSOCIADO</h1></div>
+                        <div class="col-xs-12 col-sm-6 col-lg-6"><h1 class="text-uppercase">Área do Consorciado</h1></div>
                         <div class="col-xs-12 col-sm-6 col-lg-6"><input type="text" class="form-control" id="edtGrupo" name="edtGrupo" maxlength="10" size="10" maxlength="14" size="14"  placeholder="GRUPO" required></div>
                     </div>
                 </div>
@@ -52,15 +52,15 @@
         </div>
         <div class="navbar-collapse collapse" id="bs-navbar">
             <ul class="nav navbar-nav">
-                <li><a class="<?php echo active_menu('sicoob-consorcios'); ?> vertical-align" href="<?php echo base_url(); ?>sicoob-consorcios">Sicoob Consórcios</a></li>
-                <li><a class="<?php echo active_menu_array(array('oferte-seu-lance','segunda-via-do-boleto')); echo active_menu('institucional'); ?> vertical-align" href="<?php echo base_url(); ?>institucional">Institucional</a></li>
-                <li><a class="<?php echo active_menu('fique-por-dentro'); ?> vertical-align" href="<?php echo base_url(); ?>fique-por-dentro">Fique por Dentro</a></li>
-                <li><a class="<?php echo active_menu('veiculos'); ?> vertical-align" href="<?php echo base_url(); ?>veiculos">Veículos</a></li>
-                <li><a class="<?php echo active_menu('imoveis'); ?> vertical-align" href="<?php echo base_url(); ?>imoveis">Imóveis</a></li>
-                <li><a class="<?php echo active_menu('motos'); ?> vertical-align" href="<?php echo base_url(); ?>motos">Motos</a></li>
-                <li><a class="<?php echo active_menu('outras-modalidades'); ?> vertical-align-wide_" href="<?php echo base_url(); ?>outras-modalidades">Outras Modalidades</a></li>
-                <li><a class="<?php echo active_menu('informacoes-sobre-o-grupo'); ?>" href="<?php echo base_url(); ?>informacoes-sobre-o-grupo">Informações sobre seu Grupo</a></li>
-                <li><a class="<?php echo active_menu_array(array('contato', 'ouvidoria')); ?> vertical-align" href="<?php echo base_url(); ?>ouvidoria">Ouvidoria</a></li>
+                <li><a class="<?php echo active_menu('sicoob-consorcios'); ?> vertical-align" href="<?php echo base_url(); ?>sicoob-consorcios.php">Sicoob Consórcios</a></li>
+                <li><a class="<?php echo active_menu_array(array('oferte-seu-lance','segunda-via-do-boleto')); echo active_menu('institucional'); ?> vertical-align" href="<?php echo base_url(); ?>institucional.php">Institucional</a></li>
+                <li><a class="<?php echo active_menu('fique-por-dentro'); ?> vertical-align" href="<?php echo base_url(); ?>fique-por-dentro.php">Fique por Dentro</a></li>
+                <li><a class="<?php echo active_menu('veiculos'); ?> vertical-align" href="<?php echo base_url(); ?>veiculos.php">Veículos</a></li>
+                <li><a class="<?php echo active_menu('imoveis'); ?> vertical-align" href="<?php echo base_url(); ?>imoveis.php">Imóveis</a></li>
+                <li><a class="<?php echo active_menu('motos'); ?> vertical-align" href="<?php echo base_url(); ?>motos.php">Motos</a></li>
+                <li><a class="<?php echo active_menu('outras-modalidades'); ?> vertical-align" href="<?php echo base_url(); ?>outras-modalidades.php">Outras Modalidades</a></li>
+                <li><a class="<?php echo active_menu('informacoes-sobre-o-grupo'); ?>" href="<?php echo base_url(); ?>informacoes-sobre-o-grupo.php">Informações sobre seu Grupo</a></li>
+                <li><a class="<?php echo active_menu_array(array('contato', 'ouvidoria')); ?> vertical-align" href="<?php echo base_url(); ?>ouvidoria.php">Ouvidoria</a></li>
             </ul>
         </div>
     </div>
