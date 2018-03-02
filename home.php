@@ -28,6 +28,7 @@
                     <div class="feature">
                         <i class="wow fadeIn" data-wow-delay=".3s">
                             <img class="img-responsive" src="assets/images/calendario.png" alt="">
+                            <p class="text-center">Escolha o seu vencimento</p>
                             <div class="controllerscalendar">
                                 <div class="row">
                                     <div class="col-md-12  mes mes1" <?php if(date('m') == 1):?> style="display: block;" <?php else: ?>  style="display: none" <?php endif; ?>>

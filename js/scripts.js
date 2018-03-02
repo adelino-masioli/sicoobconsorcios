@@ -144,12 +144,12 @@ function enableMes(mes){
         $('.day[data-date="1536969600000"]').addClass('actassembleia');
     }
     //outubro
-    if(mes == 's1'){
+    if(mes == 'o1'){
         $('.day[data-date="1538697600000"]').addClass('actvencimento');
         $('.day[data-date="1538784000000"]').addClass('actsorteio');
         $('.day[data-date="1539129600000"]').addClass('actassembleia');
     }
-    if(mes == 's2'){
+    if(mes == 'o2'){
         $('.day[data-date="1539129600000"]').addClass('actvencimento');
         $('.day[data-date="1539388800000"]').addClass('actsorteio');
         $('.day[data-date="1539734400000"]').addClass('actassembleia');
@@ -191,39 +191,75 @@ function selecionaCalendario(mes){
     $('.mes').hide();
     if(mes == '1515283200000' || mes == '1517097600000'){
         $('.mes1').show();
+        setTimeout(function(){
+            enableMes('j1');
+        },400);
     }
     if(mes == '1518307200000' || mes == '1519516800000'){
         $('.mes2').show();
+        setTimeout(function(){
+            enableMes('f1');
+        },400);
     }
     if(mes == '1520726400000' || mes == '1521936000000'){
         $('.mes3').show();
+        setTimeout(function(){
+            enableMes('m1');
+        },400);
     }
     if(mes == '1523145600000' || mes == '1524960000000'){
         $('.mes4').show();
+        setTimeout(function(){
+            enableMes('a1');
+        },400);
     }
     if(mes == '1525564800000' || mes == '1527379200000'){
         $('.mes5').show();
+        setTimeout(function(){
+            enableMes('mm1');
+        },400);
     }
     if(mes == '1528588800000' || mes == '1529798400000'){
         $('.mes6').show();
+        setTimeout(function(){
+            enableMes('jn1');
+        },400);
     }
     if(mes == '1531008000000' || mes == '1532822400000'){
         $('.mes7').show();
+        setTimeout(function(){
+            enableMes('jl1');
+        },400);
     }
     if(mes == '1533427200000' || mes == '1535241600000'){
         $('.mes8').show();
+        setTimeout(function(){
+            enableMes('ag1');
+        },400);
     }
     if(mes == '1536451200000' || mes == '1538265600000'){
         $('.mes9').show();
+        setTimeout(function(){
+            enableMes('s1');
+        },400);
     }
     if(mes == '1538870400000' || mes == '1540684800000'){
         $('.mes10').show();
+        setTimeout(function(){
+            enableMes('o1');
+        },400);
     }
     if(mes == '1541894400000' || mes == '1543104000000'){
         $('.mes11').show();
+        setTimeout(function(){
+            enableMes('n1');
+        },400);
     }
     if(mes == '1544313600000' || mes == '1546128000000'){
         $('.mes12').show();
+        setTimeout(function(){
+            enableMes('d1');
+        },400);
     }
 }
 
