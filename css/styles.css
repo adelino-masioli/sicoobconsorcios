@@ -217,6 +217,20 @@ aside {
     line-height: 42px;
 }
 
+.lk_consult{
+    background: #8DC63F;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+.lk_consult:hover, .lk_consult:active{
+    text-decoration: none!important;
+    color: #ffffff!important;
+}
 #box1{
     margin-top: 0px;
 }

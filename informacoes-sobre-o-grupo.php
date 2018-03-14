@@ -11,15 +11,15 @@
                     <p class="text-muted">Conforme determina a Lei nº 11.795/08 uma vez encerrado o grupo, a Administradora deve prestar contas a seus consorciados quanto a disponibilidade remanescente de valores devidos aos participantes, inclusive aos excluídos. A disponibilidade remanescente pode ser composta de diversas fontes de recursos, principalmente, do fundo de reserva, de sobras no fundo comum e rateios de valores judiciais a favor do grupo.</p>
                     <p class="text-muted">Sendo assim, para que verificar uma eventual disponibilidade insira seus dados (CPF/CNPJ e data de nascimento/fundação) (Consulta de Valores). Em caso de dúvidas, basta acionar nosso SAC (Serviço de Atendimento ao Consorciado) pelo 0800 607 3636 ou 4007 1905.</p>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12  text-center hidden" style="display:none;">
-                    <div class="feature">
-                        <i class="wow fadeIn" data-wow-delay=".3s"><img class="img-responsive" src="assets/images/calendario.png" alt=""></i>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12  text-center">
+                    <div class="feature">                  
                         <div class="calendario">
                             <div style="overflow:hidden;" class="wow fadeIn" data-wow-delay=".5s">
                                 <div class="form-group">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <div id="datetimepicker12"></div>
+                                            <a class="lk_consult" href="http://site.sicoobconsorcios.com.br/images/Grupos%20encerrados%20com%20novos%20rateios%20a%20receber.pdf" target="_blank">consultar grupos encerrados</a>
+                                            <a class="lk_consult" href="https://webatendimento.sicoobconsorcios.com.br/frmCorCcCnsLogin.aspx" target="_blank">consultar valores a devolver</a>
                                         </div>
                                     </div>
                                 </div>

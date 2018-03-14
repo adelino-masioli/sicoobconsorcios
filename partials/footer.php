@@ -57,7 +57,7 @@
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-2 column">
-                    <a href="https://webatendimento.sicoobconsorcios.com.br/frmCorccCnsEsqueciSenha.aspx" class="btn btn-area">ÁREA DO CONSORCIADO</a>
+                    <a href="https://webatendimento.sicoobconsorcios.com.br/frmCorCcCnsLogin.aspx" class="btn btn-area">ÁREA DO CONSORCIADO</a>
                 </div>
             </div>
 

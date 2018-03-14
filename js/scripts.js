@@ -186,6 +186,86 @@ function resetBg(){
     $('.day').removeClass('actsorteioponta');
 }
 
+
+jQuery(document).ready(function(){
+    var d = new Date();
+    var mes = d.getMonth();
+
+    $('.mes').hide();
+    if(mes == 0){
+        $('.mes1').show();
+        setTimeout(function(){
+            enableMes('j1');
+        },400);
+    }
+    if(mes == 1){
+        $('.mes2').show();
+        setTimeout(function(){
+            enableMes('f1');
+        },400);
+    }
+    if(mes == 2){
+        $('.mes3').show();
+        setTimeout(function(){
+            enableMes('m1');
+        },400);
+    }
+    if(mes == 3){
+        $('.mes4').show();
+        setTimeout(function(){
+            enableMes('a1');
+        },400);
+    }
+    if(mes == 4){
+        $('.mes5').show();
+        setTimeout(function(){
+            enableMes('mm1');
+        },400);
+    }
+    if(mes == 5){
+        $('.mes6').show();
+        setTimeout(function(){
+            enableMes('jn1');
+        },400);
+    }
+    if(mes == 6){
+        $('.mes7').show();
+        setTimeout(function(){
+            enableMes('jl1');
+        },400);
+    }
+    if(mes == 7){
+        $('.mes8').show();
+        setTimeout(function(){
+            enableMes('ag1');
+        },400);
+    }
+    if(mes == 8){
+        $('.mes9').show();
+        setTimeout(function(){
+            enableMes('s1');
+        },400);
+    }
+    if(mes == 9){
+        $('.mes10').show();
+        setTimeout(function(){
+            enableMes('o1');
+        },400);
+    }
+    if(mes == 10){
+        $('.mes11').show();
+        setTimeout(function(){
+            enableMes('n1');
+        },400);
+    }
+    if(mes == 11){
+        $('.mes12').show();
+        setTimeout(function(){
+            enableMes('d1');
+        },400);
+    }
+});
+
 function selecionaCalendario(mes){
     //alert(mes);
     $('.mes').hide();
