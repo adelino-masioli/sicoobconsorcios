@@ -41,140 +41,159 @@ function enableMes(mes){
     resetBg();
     //janeiro
     if(mes == 'j1'){
-        //$('.day[data-date="1514764800000"]').addClass('actferiado');
         $('.day[data-date="1515110400000"]').addClass('actvencimento');
         $('.day[data-date="1515196800000"]').addClass('actsorteio');
         $('.day[data-date="1515542400000"]').addClass('actassembleia');
-        //$('.day[data-date="1515801600000"]').addClass('actsorteioponta');
-       // $('.day[data-date="1516147200000"]').addClass('actsorteioponta');
+        $('.day[data-date="1515456000000"]').addClass('actlimitelance');
     }
     if(mes == 'j2'){
-        //$('.day[data-date="1514764800000"]').addClass('actferiado');
         $('.day[data-date="1515542400000"]').addClass('actvencimento');
         $('.day[data-date="1515801600000"]').addClass('actsorteio');
         $('.day[data-date="1516147200000"]').addClass('actassembleia');
+        $('.day[data-date="1516060800000"]').addClass('actlimitelance');
     }
     //fevereiro
     if(mes == 'f1'){
-        //$('.day[data-date="1518480000000"]').addClass('actferiado');
         $('.day[data-date="1517788800000"]').addClass('actvencimento');
         $('.day[data-date="1518220800000"]').addClass('actsorteio');
         $('.day[data-date="1518566400000"]').addClass('actassembleia');
+        $('.day[data-date="1518480000000"]').addClass('actlimitelance');
     }
     if(mes == 'f2'){
         $('.day[data-date="1518393600000"]').addClass('actvencimento');
         $('.day[data-date="1518825600000"]').addClass('actsorteio');
         $('.day[data-date="1519171200000"]').addClass('actassembleia');
+        $('.day[data-date="1519084800000"]').addClass('actlimitelance');
     }
     //marco
     if(mes == 'm1'){
         $('.day[data-date="1520208000000"]').addClass('actvencimento');
         $('.day[data-date="1520640000000"]').addClass('actsorteio');
         $('.day[data-date="1520985600000"]').addClass('actassembleia');
+        $('.day[data-date="1520899200000"]').addClass('actlimitelance');
     }
     if(mes == 'm2'){
         $('.day[data-date="1520812800000"]').addClass('actvencimento');
         $('.day[data-date="1521244800000"]').addClass('actsorteio');
         $('.day[data-date="1521590400000"]').addClass('actassembleia');
+        $('.day[data-date="1521504000000"]').addClass('actlimitelance');
     }
     //abril
     if(mes == 'a1'){
         $('.day[data-date="1522886400000"]').addClass('actvencimento');
         $('.day[data-date="1523059200000"]').addClass('actsorteio');
         $('.day[data-date="1523404800000"]').addClass('actassembleia');
+        $('.day[data-date="1523318400000"]').addClass('actlimitelance');
     }
     if(mes == 'a2'){
         $('.day[data-date="1523318400000"]').addClass('actvencimento');
         $('.day[data-date="1523664000000"]').addClass('actsorteio');
         $('.day[data-date="1524009600000"]').addClass('actassembleia');
+        $('.day[data-date="1523923200000"]').addClass('actlimitelance');
     }
     //maio
     if(mes == 'mm1'){
         $('.day[data-date="1525651200000"]').addClass('actvencimento');
         $('.day[data-date="1526083200000"]').addClass('actsorteio');
         $('.day[data-date="1526428800000"]').addClass('actassembleia');
+        $('.day[data-date="1526342400000"]').addClass('actlimitelance');
     }
     if(mes == 'mm2'){
         $('.day[data-date="1525910400000"]').addClass('actvencimento');
         $('.day[data-date="1526688000000"]').addClass('actsorteio');
         $('.day[data-date="1527033600000"]').addClass('actassembleia');
+        $('.day[data-date="1526947200000"]').addClass('actlimitelance');
     }
     //junho
     if(mes == 'jn1'){
         $('.day[data-date="1528156800000"]').addClass('actvencimento');
         $('.day[data-date="1528502400000"]').addClass('actsorteio');
         $('.day[data-date="1528848000000"]').addClass('actassembleia');
+        $('.day[data-date="1528761600000"]').addClass('actlimitelance');
     }
     if(mes == 'jn2'){
         $('.day[data-date="1528675200000"]').addClass('actvencimento');
         $('.day[data-date="1529107200000"]').addClass('actsorteio');
         $('.day[data-date="1529452800000"]').addClass('actassembleia');
+        $('.day[data-date="1529366400000"]').addClass('actlimitelance');
     }
     //julho
     if(mes == 'jl1'){
         $('.day[data-date="1530748800000"]').addClass('actvencimento');
         $('.day[data-date="1530921600000"]').addClass('actsorteio');
         $('.day[data-date="1531267200000"]').addClass('actassembleia');
+        $('.day[data-date="1531180800000"]').addClass('actlimitelance');
     }
     if(mes == 'jl2'){
         $('.day[data-date="1531180800000"]').addClass('actvencimento');
         $('.day[data-date="1531526400000"]').addClass('actsorteio');
         $('.day[data-date="1531872000000"]').addClass('actassembleia');
+        $('.day[data-date="1531785600000"]').addClass('actlimitelance');
     }
     //agosto
     if(mes == 'ag1'){
         $('.day[data-date="1533513600000"]').addClass('actvencimento');
         $('.day[data-date="1533945600000"]').addClass('actsorteio');
         $('.day[data-date="1534291200000"]').addClass('actassembleia');
+        $('.day[data-date="1534204800000"]').addClass('actlimitelance');
     }
     if(mes == 'ag2'){
         $('.day[data-date="1533859200000"]').addClass('actvencimento');
         $('.day[data-date="1534550400000"]').addClass('actsorteio');
         $('.day[data-date="1534896000000"]').addClass('actassembleia');
+        $('.day[data-date="1534809600000"]').addClass('actlimitelance');
     }
     //setembro
     if(mes == 's1'){
         $('.day[data-date="1536105600000"]').addClass('actvencimento');
         $('.day[data-date="1536364800000"]').addClass('actsorteio');
         $('.day[data-date="1536710400000"]').addClass('actassembleia');
+        $('.day[data-date="1536624000000"]').addClass('actlimitelance');
     }
     if(mes == 's2'){
         $('.day[data-date="1536278400000"]').addClass('actvencimento');
         $('.day[data-date="1536537600000"]').addClass('actsorteio');
         $('.day[data-date="1536969600000"]').addClass('actassembleia');
+        $('.day[data-date="1536883200000"]').addClass('actlimitelance');
     }
     //outubro
     if(mes == 'o1'){
         $('.day[data-date="1538697600000"]').addClass('actvencimento');
         $('.day[data-date="1538784000000"]').addClass('actsorteio');
         $('.day[data-date="1539129600000"]').addClass('actassembleia');
+        $('.day[data-date="1539043200000"]').addClass('actlimitelance');
     }
     if(mes == 'o2'){
         $('.day[data-date="1539129600000"]').addClass('actvencimento');
         $('.day[data-date="1539388800000"]').addClass('actsorteio');
         $('.day[data-date="1539734400000"]').addClass('actassembleia');
+        $('.day[data-date="1539648000000"]').addClass('actlimitelance');
     }
     //novembro
     if(mes == 'n1'){
         $('.day[data-date="1541376000000"]').addClass('actvencimento');
         $('.day[data-date="1541808000000"]').addClass('actsorteio');
         $('.day[data-date="1542153600000"]').addClass('actassembleia');
+        $('.day[data-date="1542067200000"]').addClass('actlimitelance');
     }
     if(mes == 'n2'){
         $('.day[data-date="1541980800000"]').addClass('actvencimento');
         $('.day[data-date="1542412800000"]').addClass('actsorteio');
         $('.day[data-date="1542758400000"]').addClass('actassembleia');
+        $('.day[data-date="1542672000000"]').addClass('actlimitelance');
     }
     //dezembro
     if(mes == 'd1'){
         $('.day[data-date="1543968000000"]').addClass('actvencimento');
         $('.day[data-date="1544227200000"]').addClass('actsorteio');
         $('.day[data-date="1544572800000"]').addClass('actassembleia');
+        $('.day[data-date="1544486400000"]').addClass('actlimitelance');
     }
     if(mes == 'd2'){
         $('.day[data-date="1544400000000"]').addClass('actvencimento');
         $('.day[data-date="1544832000000"]').addClass('actsorteio');
         $('.day[data-date="1545177600000"]').addClass('actassembleia');
+        $('.day[data-date="1545091200000"]').addClass('actlimitelance');
     }
 }
 function resetBg(){

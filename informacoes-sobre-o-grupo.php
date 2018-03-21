@@ -9,7 +9,7 @@
                     <h1 class="wow fadeIn" data-wow-delay=".3s">Posição de Encerramento</h1>
                     <h2 class="wow fadeIn" data-wow-delay=".4s">Grupos encerrados com novos rateios a receber (PDF) </h2>
                     <p class="text-muted">Conforme determina a Lei nº 11.795/08 uma vez encerrado o grupo, a Administradora deve prestar contas a seus consorciados quanto a disponibilidade remanescente de valores devidos aos participantes, inclusive aos excluídos. A disponibilidade remanescente pode ser composta de diversas fontes de recursos, principalmente, do fundo de reserva, de sobras no fundo comum e rateios de valores judiciais a favor do grupo.</p>
-                    <p class="text-muted">Sendo assim, para que verificar uma eventual disponibilidade insira seus dados (CPF/CNPJ e data de nascimento/fundação) (Consulta de Valores). Em caso de dúvidas, basta acionar nosso SAC (Serviço de Atendimento ao Consorciado) pelo 0800 607 3636 ou 4007 1905.</p>
+                    <p class="text-muted">    Sendo assim, para que verificar uma eventual disponibilidade insira seus dados (CPF/CNPJ e data de nascimento/fundação) (Consultar Valores a Devolver). Em caso de dúvidas, basta acionar nosso SAC (Serviço de Atendimento ao Consorciado) pelo 0800 607 3636 ou 4007 1905.</p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12  text-center">
                     <div class="feature">                  

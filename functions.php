@@ -8,8 +8,8 @@ function base_url(){
         $protocol = 'http';
     }
     //return $protocol . "://" . $_SERVER['HTTP_HOST'].'/';
-    //return 'http://loggia.com.br/clientes/sicoob/sicoobconsorcios/';
-    return 'https://www.sicoobconsorcios.com.br/';
+    return 'http://loggia.com.br/clientes/sicoob/sicoobconsorcios/';
+    //return 'https://www.sicoobconsorcios.com.br/';
     //return 'http://127.0.0.1:8083/';
 }
 

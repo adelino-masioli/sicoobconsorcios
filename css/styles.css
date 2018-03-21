@@ -630,7 +630,7 @@ textarea {
     z-index: 2;
     padding: 0px;
     position: relative;
-    left: 18px;
+    text-align: center;
 }
 
 
@@ -655,16 +655,29 @@ textarea {
 .controllerscalendar .dezembro{
     display: none;
 }
-.controllerscalendar .mesbtn{
-    width: 45.3%;
-    height: 46px;
-    float: left;
+.controllerscalendar .selelecionevencimento{
+    width: 85%;
+    height: 33px;   
     background: #898989;
     text-align: center;
     border: 3px solid #ffffff;
     font-style: normal;
     color: #ffffff;
-    line-height: 36px;
+    line-height: 26px;
+    display: inline-block;
+    margin: auto;
+}
+.controllerscalendar .mesbtn{
+    width: 25%;
+    height: 33px;   
+    background: #898989;
+    text-align: center;
+    border: 3px solid #ffffff;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 26px;
+    display: inline-block;
+    margin: auto;
 }
 
 .actferiado{
